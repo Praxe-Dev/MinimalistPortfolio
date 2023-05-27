@@ -6,10 +6,24 @@ html {
   }
 }
 
+em {
+  font-weight: bold;
+  color: #4f4fff;
+  // color: $primary-color;
+  font-size: $em-font-size;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   scroll-behavior: smooth;
+}
+
+ul {
+  li {
+    font-size: $default-font-size;
+    text-align: left;
+  }
 }
 
 /* Scrollbar */
